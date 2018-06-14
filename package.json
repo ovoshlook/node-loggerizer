@@ -1,20 +1,26 @@
 {
-  "name": "logger",
+  "dependencies": {
+    "colors": "^1.2.5"
+  },
+  "name": "loggerizer",
   "version": "1.0.0",
   "description": "Really small logger that allows to set layers of logging output such as: ERROR, WARNING, INFO, NOTICE, DEBUG and format it as [formatted-time]: LEVEL: text format",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/ovoshook/loggerizer",
   "keywords": [
      "logger",
+     "loggerizer",
 	   "logs",
 	   "output",
-	   "formatted"
+	   "formatting"
   ],
   "author": "Iurii Gorlichenko aka ovoshook",
-  "license": "ISC",
-  "dependencies": {
-    "colors": "^1.2.5"
-  }
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovoshook/loggerizer.git"
+  },
 }
