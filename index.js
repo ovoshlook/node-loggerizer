@@ -64,7 +64,7 @@ module.exports = class Loggerizer {
   			levelColor = this.levels[level].color;
   		}
   		
-  		if (this.requiredLevels >= levelIndex){ 
+  		if (this.requiredLevel >= levelIndex){ 
   			
   			if (typeof(body) === 'object') {
   				console.log(this.format(levelIndex,levelColor)+" \n %O",body);
