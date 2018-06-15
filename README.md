@@ -14,7 +14,7 @@ Means if "2" is defined - console logging will show ERROR,WARNINIG and INFO leve
 IT is really easy to use. Just create new loggerizer object
 
 ````javascript
-  const Loggerizer 	= require('loggerizer');
+  const Loggerizer 	= require('node-loggerizer');
   const loggerizer 	= new Logger(4); 
 ````
 And use:

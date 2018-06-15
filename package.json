@@ -2,8 +2,8 @@
   "dependencies": {
     "colors": "^1.2.5"
   },
-  "name": "loggerizer",
-  "version": "1.0.2",
+  "name": "node-loggerizer",
+  "version": "1.0.0",
   "description": "Really small logger that allows to set layers of logging output such as: ERROR, WARNING, INFO, NOTICE, DEBUG and format it as [formatted-time]: LEVEL: text format",
   "main": "index.js",
   "scripts": {
