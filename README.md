@@ -15,7 +15,7 @@ IT is really easy to use. Just create new loggerizer object
 
 ````javascript
   const Loggerizer 	= require('node-loggerizer');
-  const loggerizer 	= new Logger(4); 
+  const loggerizer 	= new Loggerizer(4); 
 ````
 And use:
 ````javascript
